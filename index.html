@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <title>Lionel Andrés Messi</title>
+</head>
+
+<body>
+    <section class="sec">
+        <img src="images/bg1.jpg" alt="" srcset="" class="bg">
+        <header>
+            <a href="#">
+                <img src="images/messi.png" alt="" class="logo">
+            </a>
+
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Lionel Andrés Messi</h2>
+                <div class="row">
+                    <div class="col">
+                        <h3>
+                            <span>778</span>
+                        </h3>
+                        <h4>
+                            <span>GAMES</span>
+                        </h4>
+                    </div>
+                    <div class="col">
+                        <h3>
+                            <span>672</span>
+                        </h3>
+                        <h4>
+                            <span>GOALS</span>
+                        </h4>
+                    </div>
+                    <div class="col">
+                        <h3>
+                            <span>305</span>
+                        </h3>
+                        <h4>
+                            <span>ASSIST</span>
+                        </h4>
+                    </div>
+                    <div class="col">
+                        <h3>
+                            <span>35</span>
+                        </h3>
+                        <h4>
+                            <span>TITLES</span>
+                        </h4>
+                    </div>
+                </div>
+                <p>
+                    <span><b style="color:#00ADED;font-weight: 900;text-transform: uppercase;">10X</b> La Liga</span>
+                    <span><b style="color:#00ADED;font-weight: 900;text-transform: uppercase;">7X</b> Copa Del
+                        Rey</span>
+                    <span><b style="color:#00ADED;font-weight: 900;text-transform: uppercase;">8X</b> Supercopa De
+                        Espana</span>
+                    <span><b style="color:#00ADED;font-weight: 900;text-transform: uppercase;">8X</b> Champions
+                        League</span>
+                    <span><b style="color:#00ADED;font-weight: 900;text-transform: uppercase;">4X</b> Champions
+                        League</span>
+                    <span><b style="color:#00ADED;font-weight: 900;text-transform: uppercase;">3X</b> Club World
+                        Cup</span>
+                </p>
+                <a href="#">Gracias Messi</a>
+            </div>
+            <div class="imgSong">
+                <img src="images/messi1.png" alt="" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/messi1.png" onclick="imgSlider('images/messi1.png'); imgSlider2('images/bg1.jpg')">
+            </li>
+            <li><img src="images/messi2.png" onclick="imgSlider('images/messi2.png'); imgSlider2('images/bg2.jpg')">
+            </li>
+            <li><img src="images/messi3.png" onclick="imgSlider('images/messi3.png'); imgSlider2('images/bg3.jpg')">
+            </li>
+            <li><img src="images/messi4.png" onclick="imgSlider('images/messi4.png'); imgSlider2('images/bg4.jpg')">
+            </li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://messi.com/"><img src="images/web.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/leomessi/?hl=en"><img src="images/instagram.png" alt=""></a></li>
+            <li><a href="https://www.youtube.com/user/LeoMessi"><img src="images/youtube.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <!-- Javascript -->
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.pepsi').src = anything;
+        }
+
+        function imgSlider2(anything) {
+            document.querySelector('.bg').src = anything;
+        }
+    </script>
+
+</body>
+
+</html>
